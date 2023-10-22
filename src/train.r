@@ -66,7 +66,7 @@ task = TaskClassif$new(id = "clf_task", backend = df, target = "target_feature")
 
 
 # Run automl
-automl = AutoML(task)
+automl = AutoML(task, runtime=600)
 automl$train()
 
 # Get the best model
