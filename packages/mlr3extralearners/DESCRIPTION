@@ -1,0 +1,76 @@
+Package: mlr3extralearners
+Title: Extra Learners For mlr3
+Version: 0.7.1-9000
+Authors@R: c(
+    person("Raphael", "Sonabend", , "raphaelsonabend@gmail.com", role = "aut",
+           comment = c(ORCID = "0000-0001-9225-4654")),
+    person("Patrick", "Schratz", , "patrick.schratz@gmail.com", role = "aut",
+           comment = c(ORCID = "0000-0003-0748-6624")),
+    person("Lorenz A.", "Kapsner", , "lorenz.kapsner@gmail.com", role = "ctb",
+           comment = c(ORCID = "0000-0003-1866-860X")),
+    person("Lennart", "Schneider", , "lennart.sch@web.de", role = "ctb",
+           comment = c(ORCID = "0000-0003-4152-5308")),
+    person("Stephen A", "Lauer", , "stephenalauer@gmail.com", role = "ctb",
+           comment = c(ORCID = "0000-0003-2948-630X")),
+    person("Pierre", "Camilleri", , "camilleri_pierre@hotmail.fr", role = "ctb"),
+    person("Javier", "García", , "geshter@hotmail.com", role = "ctb"),
+    person("Keenan", "Ganz", , "ganzkeenan1@gmail.com", role = "ctb"),
+    person("Byron", "Jaeger", , "bjaeger@wakehealth.edu", role = "ctb"),
+    person("Sebastian", "Fischer", , "sebf.fischer@gmail.com", role = c("cre", "aut")),
+    person("Zezhi", "Wang", ,"homura@mail.ustc.edu.cn", role = "ctb"),
+    person("John", "Zobolas", ,"bblodfon@gmail.com", role = "ctb",
+           comment = c(ORCID = "0000-0002-3609-8674"))
+  )
+Description: Extra learners for use in mlr3.
+License: LGPL-3
+Depends: R (>= 3.1.0)
+Imports: checkmate, data.table, methods, mlr3 (>= 0.13.4), mlr3misc (>=
+        0.9.4), paradox, R6
+Suggests: abess, aorsf (>= 0.0.5), actuar, apcluster, BART (>= 2.9.4),
+        C50, catboost, coin, CoxBoost, Cubist, curl, dbarts, distr6,
+        earth, flexsurv, FNN, formattable, future, gbm, glmnet, gss,
+        jsonlite, keras (>= 2.3.0), kernlab, knitr, ks, LiblineaR,
+        lightgbm (>= 3.0.0), lme4, locfit, logspline, mboost, mda,
+        mgcv, mlr3cluster, mlr3learners (>= 0.4.2), mlr3proba (>=
+        0.5.3), mlr3pipelines, mvtnorm, nnet, np, obliqueRSF, param6,
+        partykit, penalized, pendensity, plugdensity, pracma,
+        prioritylasso (>= 0.3.1), pseudo, randomForest,
+        randomForestSRC, ranger, remotes, reticulate (>= 1.16), rpart,
+        rsm, rvest, RWeka, sandwich, set6, sm, stats, survival,
+        survivalmodels, survivalsvm, tensorflow (>= 2.0.0), testthat,
+        xgboost
+Remotes: binderh/CoxBoost, catboost/catboost/catboost/R-package,
+        mlr-org/mlr3proba, RaphaelS1/survivalmodels, xoopR/distr6,
+        xoopR/param6, xoopR/set6
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Encoding: UTF-8
+NeedsCompilation: no
+Roxygen: list(markdown = TRUE, r6 = TRUE)
+RoxygenNote: 7.2.3
+Config/Needs/website: rmarkdown
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: mlr3extralearners
+RemoteUsername: mlr-org
+RemoteRef: HEAD
+RemoteSha: 71a31fa179982474378cfb4f6d0fc836c8b35735
+GithubRepo: mlr3extralearners
+GithubUsername: mlr-org
+GithubRef: HEAD
+GithubSHA1: 71a31fa179982474378cfb4f6d0fc836c8b35735
+Packaged: 2023-10-21 23:31:05 UTC; moo
+Author: Raphael Sonabend [aut] (<https://orcid.org/0000-0001-9225-4654>),
+  Patrick Schratz [aut] (<https://orcid.org/0000-0003-0748-6624>),
+  Lorenz A. Kapsner [ctb] (<https://orcid.org/0000-0003-1866-860X>),
+  Lennart Schneider [ctb] (<https://orcid.org/0000-0003-4152-5308>),
+  Stephen A Lauer [ctb] (<https://orcid.org/0000-0003-2948-630X>),
+  Pierre Camilleri [ctb],
+  Javier García [ctb],
+  Keenan Ganz [ctb],
+  Byron Jaeger [ctb],
+  Sebastian Fischer [cre, aut],
+  Zezhi Wang [ctb],
+  John Zobolas [ctb] (<https://orcid.org/0000-0002-3609-8674>)
+Maintainer: Sebastian Fischer <sebf.fischer@gmail.com>
+Built: R 4.3.1; ; 2023-10-21 23:31:06 UTC; unix
