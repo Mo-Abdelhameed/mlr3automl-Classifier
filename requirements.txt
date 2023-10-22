@@ -1,0 +1,4 @@
+jsonlite@1.8.7
+glmnet@4.1-8 
+mlr3automl@0.0.0.9000
+mlr3@0.16.1-9000
